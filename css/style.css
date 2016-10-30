@@ -43,6 +43,11 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
 h2 {
   font-size: 20px;
   font-weight: 600;
@@ -87,6 +92,16 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   margin-top: -100px;
+}
+
+.code-conduct .logo {
+  display: block;
+  width: 200px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -100px;
+  margin-bottom: 40px;
 }
 
 .welcome h1 {
@@ -172,8 +187,8 @@ h3.code-conduct a {
 }
 
 .speaker-photo {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border: 4px solid black;
   border-radius: 50%;
   margin-left: auto;
@@ -184,9 +199,25 @@ h3.code-conduct a {
 
 .footer {
   text-align: center;
-  margin-bottom: 100px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .footer h6 {
   font-size: 14px;
+}
+
+
+
+.box.content {
+  max-width: 500px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+.code-conduct h4.code-conduct-link {
+  margin-bottom: 20px;
 }
