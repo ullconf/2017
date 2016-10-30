@@ -11,9 +11,7 @@
 body {
   background-size: 180vh;
   background-position: bottom;
-  background-repeat: repeat-y;
-
-  /*margin-bottom: 1000px;*/
+  background-repeat: repeat;
 }
 
 body.square {background-image: url('../images/ull-falling-squares.png');}
@@ -26,9 +24,11 @@ body.triangle {background-image: url('../images/ull-falling-triangles.png');}
   height: 100vh;
   background-size: 180vh;
   background-position: bottom;
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   z-index: -10;
 }
+
+
 
 body.square .top-background {background-image: url('../images/ull-background-square.png');}
 body.circle .top-background {background-image: url('../images/ull-background-circle.png');}
@@ -80,7 +80,7 @@ h3 {
   position: absolute;
   max-width: 68%;
 
-  margin-top: calc(40vh - 200px);
+  margin-top: calc(30vh - 100px);
   height: 400px;
   width: 600px;
   left: 0;
@@ -90,7 +90,7 @@ h3 {
 
 
 
-.welcome .logo {
+.logo {
   display: block;
   width: 200px;
   height: auto;
@@ -99,13 +99,15 @@ h3 {
   margin-top: -100px;
 }
 
-.code-conduct .logo {
+.logo img {
   display: block;
   width: 200px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -100px;
+}
+
+.code-conduct .logo {
   margin-bottom: 40px;
 }
 
@@ -231,14 +233,28 @@ h3.code-conduct a {
 
 
 .box.content {
-  max-width: 500px;
+  max-width: 80%;
+  width: 500px;
   margin-top: 100px;
   margin-bottom: 40px;
   padding-top: 30px;
   padding-bottom: 30px;
+  /*margin-left: 20px;*/
+  /*margin-right: 20px;*/
 }
 
 
 .code-conduct .code-conduct-link {
   margin-bottom: 20px;
+}
+
+
+@media (max-width: 500px) {
+  .logo {
+    width: 120px;
+  }
+
+  .logo img {
+    width: 120px;
+  }
 }
