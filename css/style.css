@@ -22,10 +22,11 @@ body.triangle {background-image: url('../images/ull-falling-triangles.png');}
   top: 0;
   width: 100%;
   height: 100vh;
-  background-size: 180vh;
+  background-size: 179vh;
   background-position: bottom;
   background-repeat: repeat-x;
   z-index: -10;
+  margin-left: -2px;
 }
 
 
@@ -79,7 +80,6 @@ h3 {
 .welcome {
   position: absolute;
   max-width: 68%;
-
   margin-top: calc(30vh - 100px);
   height: 400px;
   width: 600px;
@@ -87,8 +87,6 @@ h3 {
   right: 0;
   z-index: 10;
 }
-
-
 
 .logo {
   display: block;
@@ -146,17 +144,26 @@ sup {
   height: 40px;
   margin-top: 40px;
   margin-bottom: 22px;
+  display: block;
+  cursor: pointer;
+  display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .buy-button h2 {
   text-align: center;
   font-size: 30px;
   font-weight: 500;
-  margin-top: 2px;
+  margin: 0;
 }
 
 .buy-button:hover {
   background-color: black;
+  color: white;
+}
+
+.buy-button:hover h2 {
   color: white;
 }
 
@@ -256,5 +263,9 @@ h3.code-conduct a {
 
   .logo img {
     width: 120px;
+  }
+
+  .buy-button h2 {
+    font-size: 18px;
   }
 }
