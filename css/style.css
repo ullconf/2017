@@ -424,3 +424,9 @@ li.square:before {
   position: relative;
   transform: rotate(20deg);
 }
+
+
+h3.and-more {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
