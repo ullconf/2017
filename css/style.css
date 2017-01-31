@@ -95,6 +95,10 @@ h4 {
   margin-right: auto;
 }
 
+.right {
+  text-align: right;
+}
+
 
 /* boxes */
 
@@ -264,6 +268,8 @@ h3.code-conduct a {
 
 /* presenters */
 
+
+
 .presenters {
   margin-top: 100px;
   margin-bottom: 100px;
@@ -274,16 +280,39 @@ h3.code-conduct a {
   margin-bottom: 20px;
 }
 
+
+.presenter {
+  width: 500px;
+  min-height: 140px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.presenter div {
+  /*max-width: 300px;*/
+}
+
 .speaker-circle {
   width: 120px;
   height: 120px;
   border: 4px solid black;
   border-radius: 50%;
 
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  /*margin-bottom: 20px;*/
+  /*margin-top: 20px;*/
+
+  background-position: center;
+  background-size: cover;
+
+  float: left;
+}
+
+.speaker-circle.right {
+  float: right;
 }
 
 
@@ -430,3 +459,15 @@ h3.and-more {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+
+.christina {background-image: url("../images/christina.jpg");}
+.lopp {background-image: url("../images/lopp.jpg");}
+.horace {background-image: url("../images/horace.jpg");}
+
+.jason {background-image: url("../images/jason.jpg");}
+.chadwick {background-image: url("../images/chadwick.jpg");}
+
+.ben {background-image: url("../images/ben.jpg");}
+.nicole {background-image: url("../images/nicole.jpg");}
+.quinn {background-image: url("../images/quinn.jpg");}
