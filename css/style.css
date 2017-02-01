@@ -79,6 +79,15 @@ h3 {
   font-size: 18px;
 }
 
+h3 a {
+  color: black;
+  font-weight: 600;
+}
+
+h3 a:hover {
+  color: #444;
+}
+
 h4 {
 
   display: inline;
@@ -86,7 +95,6 @@ h4 {
 
 .center {
   text-align: center;
-  clear: both;
 }
 
 .left {
@@ -285,6 +293,7 @@ h3.code-conduct a {
 
 .presenter {
   width: 600px;
+  max-width: 88%;
   min-height: 140px;
 
   margin-left: auto;
@@ -294,16 +303,13 @@ h3.code-conduct a {
 
 .presenter .bio {
   width: 400px;
+  max-width: 88vw;
   margin-bottom: 20px;
-  float: left;
 }
 
 .presenter p {
   margin: 0;
-}
-
-.presenter div {
-  /*max-width: 300px;*/
+  max-width: 100%;
 }
 
 .speaker-circle {
@@ -311,22 +317,10 @@ h3.code-conduct a {
   height: 120px;
   border: 4px solid black;
   border-radius: 50%;
-
-  /*margin-left: 20px;*/
-  margin-right: 20px;
-  /*margin-bottom: 20px;*/
-  /*margin-top: 20px;*/
-
   background-position: center;
   background-size: cover;
-
   float: left;
 }
-
-.speaker-circle.right {
-  float: right;
-}
-
 
 /* schedule */
 
@@ -387,7 +381,7 @@ h3.code-conduct a {
 
 /* media queries */
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .logo {
     width: 120px;
   }
@@ -399,6 +393,18 @@ h3.code-conduct a {
   .buy-button h2 {
     font-size: 18px;
   }
+
+  /*.speaker-circle {
+    left: 0;
+    right: 0;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .presenter .bio {
+    clear: both;
+  }*/
 }
 
 
@@ -456,7 +462,6 @@ li.circle:before {
 li.square:before {
   content: "";
   background-color: black;
-  /*border-radius: 0.2em;*/
   display: block;
   height: 0.35em;
   width: 0.35em;
