@@ -1,31 +1,11 @@
+---
+title: Home
+slug: home
+description: Úll is a conference for people who build and love great products. We focus on great product stories, presented through an Apple-shaped lens. We treat the conference itself as a product: with a deep emphasis on the attendee experience. The theme in 2017 is: the future.
+---
 <!DOCTYPE html>
 <html lang="en">
-
-
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Úll 2017</title>
-<link href="css/style.css" rel="stylesheet">
-<script src="https://use.typekit.net/cye5xxq.js"></script>
-<script src="js/ull.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
-
-<meta name="description" content="{{ page.description }}">
-<meta name="robots" content="index, follow">
-<meta name="author" content="Úll Conferences Limited">
-
-<meta property="og:title" content="Úll 2016">
-<meta property="og:site_name" content="Úll">
-<meta property="og:url" content="http://2016.ull.ie">
-<meta property="og:description" content="{{ page.description }}">
-<meta property="og:type" content="business.business">
-
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@ullconf">
-<meta name="twitter:title" content="Úll 2016">
-<meta name="twitter:description" content="{{ page.description }}">
-<meta name="twitter:image:src" content="http://2016.ull.ie/images/queue-1.jpg">
+{% include head.html %}
 
 <body>
   <div class="box welcome">
@@ -84,60 +64,4 @@
           For the third, and final time, Úll returns in 2017 to The Europe in Killarney. The Europe has become a special place for Úll, not least because we have found a group of talented like-minded partners in the team there. This is a multi-award winning hotel and resort with stunning views overlooking Lough Leane. Situated in Killarney, in the kingdom of Kerry, in Ireland’s south west coast (which you may be familiar with from a certain recent Star Wars film). It’s the perfect place to reflect on the bigger picture, steeped in natural beauty.
         </p>
 
-        <!-- <a href="https://ti.to/ull/2017" class="buy-button box">
-          <h2>Tickets available now</h2>
-        </a>
-
-        <h3 class="code-conduct"><a href="code-of-conduct.html">Code of Conduct</a></h3> -->
-      </div>
-
-      <div class="footer-links flexbox">
-        <a href="why-ull.html" class="buy-button link small-box">
-          <h3>Why Úll</h3>
-        </a>
-
-        <a href="participate.html" class="buy-button link small-box">
-          <h3>Participate</h3>
-        </a>
-
-        <a href="presenters.html" class="buy-button link small-box">
-          <h3>Presenters</h3>
-        </a>
-
-        <a href="logistics.html" class="buy-button link small-box">
-          <h3>Logistics</h3>
-        </a>
-
-        <a href="schedule.html" class="buy-button link small-box">
-          <h3>Schedule</h3>
-        </a>
-
-        <a href="tickets.html" class="buy-button link small-box">
-          <h3>Tickets</h3>
-        </a>
-
-        <!-- <a href="sponsor.html" class="buy-button link small-box">
-          <h3>Sponsor</h3>
-        </a> -->
-      </div>
-
-      <p class="center">
-        <a href="https://ti.to/ull/2017/interested_users/new" >Sign up to join our mailing list</a>
-      </p>
-
-      <div class="footer">
-        <h6>A production of Úll Conferences Limited, registered in Ireland, company number 535856. VAT number IE3382039RH.</h6>
-        <h6>View our <a href="http://opensourcebridge.org/about/code-of-conduct/">code of conduct</a>.</h6>
-        <h6>Feedback? Want to sponsor? <a href="">Get in touch</a>.</h6>
-        <h6>Previously: <a href="http://2012.ull.ie">2012</a>, <a href="http://2013.ull.ie">2013</a>, <a href="http://2014.ull.ie">2014</a>, <a href="http://2015.ull.ie">2015</a> &amp; <a href="http://2016.ull.ie">2016</a>.</h6>
-        <h6><a href="https://github.com/ullconf/2017">Pull requests accepted</a>.</h6>
-      </div>
-    </body>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
-    <script>
-    var shapes = ['square', 'circle', 'triangle'];
-    var random_shape = shapes[Math.floor(Math.random() * shapes.length)];
-    $(document.body).addClass(random_shape)
-    </script>
+{% include footer.html %}
