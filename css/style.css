@@ -283,12 +283,22 @@ h3.code-conduct a {
 
 
 .presenter {
-  width: 500px;
+  width: 600px;
   min-height: 140px;
 
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
+}
+
+.presenter .bio {
+  width: 400px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.presenter p {
+  margin: 0;
 }
 
 .presenter div {
@@ -301,7 +311,7 @@ h3.code-conduct a {
   border: 4px solid black;
   border-radius: 50%;
 
-  margin-left: 20px;
+  /*margin-left: 20px;*/
   margin-right: 20px;
   /*margin-bottom: 20px;*/
   /*margin-top: 20px;*/
@@ -459,6 +469,8 @@ li.square:before {
 h3.and-more {
   margin-top: 20px;
   margin-bottom: 20px;
+
+  clear: both;
 }
 
 
