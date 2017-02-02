@@ -379,33 +379,7 @@ h3.code-conduct a {
   color: black;
 }
 
-/* media queries */
 
-@media (max-width: 700px) {
-  .logo {
-    width: 120px;
-  }
-
-  .logo img {
-    width: 120px;
-  }
-
-  .buy-button h2 {
-    font-size: 18px;
-  }
-
-  /*.speaker-circle {
-    left: 0;
-    right: 0;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .presenter .bio {
-    clear: both;
-  }*/
-}
 
 
 .europe-image {background-image: url("../images/europe.png");}
@@ -490,3 +464,43 @@ h3.and-more {
 .ben {background-image: url("../images/ben.jpg");}
 .nicole {background-image: url("../images/nicole.jpg");}
 .quinn {background-image: url("../images/quinn.jpg");}
+
+/* media queries */
+
+@media (max-width: 700px) {
+  .logo {
+    width: 120px;
+  }
+
+  .logo img {
+    width: 120px;
+  }
+
+  .buy-button h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 330px) {
+  .welcome h1 {
+    font-size: 100px;
+  }
+
+  .welcome {
+    margin-top: 100px;
+    height: 360px;
+  }
+
+  .welcome .logo {
+    margin-top: -100px;
+    width: 160px;
+  }
+
+  .welcome .logo img {
+    width: 160px;
+  }
+
+  .welcome h3 {
+    font-size: 26px;
+  }
+}
