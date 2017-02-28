@@ -130,6 +130,12 @@ h4 {
 }
 
 
+
+
+/*.footer-links .buy-button.link {
+  width: 165px;
+}*/
+
 /* welcome */
 
 .welcome {
@@ -497,6 +503,61 @@ h3.and-more {
 
 .olympia {background-image: url("../images/olympia.jpg");}
 
+.macpaw {background-image: url("../images/macpaw.jpg");}
+.emojipedia {background-image: url("../images/emojipedia.png");}
+.gf-smith {background-image: url("../images/gf-smith.jpg");}
+.nextjournal {background-image: url("../images/nextjournal.png");}
+.github {background-image: url("../images/github.png");}
+.threefe {background-image: url("../images/3fe.png");}
+
+.myke {background-image: url("../images/myke.jpg");}
+.marco {background-image: url("../images/marco.jpg");}
+.sean-langly {background-image: url("../images/sean-langly.jpg");}
+.aron-nyberg {background-image: url("../images/aron-nyberg.jpg");}
+.jeremy-hinegardner {background-image: url("../images/jeremy-hinegardner.jpg");}
+
+
+.sponsor {
+  width: 150px;
+  height: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.macpaw {
+  width: 400px;
+  height: 200px;
+}
+
+.nextjournal {
+  min-width: 200px;
+}
+
+.eagran-div {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.eagran {
+  margin-bottom: 10px;
+}
+
+.eagran.speaker-circle {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.sponsor-caption {
+  margin-bottom: 20px;
+}
+
+
+p.eagran-caption {
+  margin-bottom: 30px;
+}
 
 /* media queries */
 
